@@ -1,7 +1,16 @@
 ## Introduction
 
-This is a simple pipeline example for a .NET Core application, showing just
-how easy it is to get up and running with .NET development using GitLab.
+The Composite Design Pattern is a structural design pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. This pattern is useful when you need to work with individual objects and compositions of those objects in a unified manner. For your scenario of working with fruits, you can create a composite design pattern using .NET 7 Core.
+
+In this implementation:
+
+1. `IFruit` is the component interface that both individual fruits (leaves) and fruit baskets (composites) implement.
+2. `Apple` and `Banana` are leaf classes representing individual fruits.
+3. `FruitBasket` is a composite class that can contain a list of fruits (leaf objects) or other fruit baskets (composite objects). It implements the `IFruit` interface and can eat from its contents, recursively calling `Eat` on each contained fruit or basket.
+4. In the `Main` method, you create individual fruits and fruit baskets, add fruits to baskets, and demonstrate how you can eat from both individual fruits and fruit baskets using the composite structure.
+
+This example illustrates how the Composite Design Pattern can be applied in .NET 7 Core to represent a hierarchy of fruits and fruit baskets.
+
 
 # Reference links
 
