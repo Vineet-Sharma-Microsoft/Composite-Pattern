@@ -70,7 +70,7 @@ Composite-Pattern/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [.NET SDK](https://dotnet.microsoft.com/download) (6.0 or higher)
+- [.NET SDK](https://dotnet.microsoft.com/download) (7.0 or higher)
 - Visual Studio or any C# IDE (optional)
 - Git (for cloning the repository)
 
